@@ -2274,7 +2274,7 @@ function create_fragment$3(ctx) {
 	return block;
 }
 
-const func = () => import('./Tetris-5434c140.js');
+const func = () => import('./Tetris-f83742e6.js');
 
 function instance$3($$self, $$props, $$invalidate) {
 	let { title } = $$props;
@@ -2691,7 +2691,7 @@ class Realisation extends SvelteComponentDev {
 const { console: console_1$2 } = globals;
 const file$4 = "src\\components\\Main.svelte";
 
-// (100:0) {#if isOpen}
+// (102:0) {#if isOpen}
 function create_if_block$2(ctx) {
 	let div2;
 	let div0;
@@ -2733,18 +2733,18 @@ function create_if_block$2(ctx) {
 			if (if_block) if_block.c();
 			attr_dev(button0, "type", "button");
 			attr_dev(button0, "class", "btn btn-secondary active svelte-1gzqnnc");
-			add_location(button0, file$4, 102, 2, 2324);
+			add_location(button0, file$4, 104, 2, 2359);
 			attr_dev(button1, "type", "button");
 			attr_dev(button1, "class", "btn btn-secondary svelte-1gzqnnc");
-			add_location(button1, file$4, 103, 2, 2436);
+			add_location(button1, file$4, 105, 2, 2471);
 			attr_dev(div0, "class", "p-1 btn-group w-100 group-b svelte-1gzqnnc");
 			attr_dev(div0, "role", "group");
 			attr_dev(div0, "aria-label", "Basic example");
-			add_location(div0, file$4, 101, 0, 2237);
+			add_location(div0, file$4, 103, 0, 2272);
 			attr_dev(div1, "class", "container-fluid overflow-auto p-5");
-			add_location(div1, file$4, 105, 0, 2547);
+			add_location(div1, file$4, 107, 0, 2582);
 			attr_dev(div2, "class", "d-flex flex-column overflow-hidden");
-			add_location(div2, file$4, 100, 0, 2138);
+			add_location(div2, file$4, 102, 0, 2173);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, div2, anchor);
@@ -2837,14 +2837,14 @@ function create_if_block$2(ctx) {
 		block,
 		id: create_if_block$2.name,
 		type: "if",
-		source: "(100:0) {#if isOpen}",
+		source: "(102:0) {#if isOpen}",
 		ctx
 	});
 
 	return block;
 }
 
-// (109:29) 
+// (111:29) 
 function create_if_block_2$1(ctx) {
 	let realisation;
 	let current;
@@ -2876,14 +2876,14 @@ function create_if_block_2$1(ctx) {
 		block,
 		id: create_if_block_2$1.name,
 		type: "if",
-		source: "(109:29) ",
+		source: "(111:29) ",
 		ctx
 	});
 
 	return block;
 }
 
-// (107:0) {#if category == "history"}
+// (109:0) {#if category == "history"}
 function create_if_block_1$2(ctx) {
 	let history;
 	let current;
@@ -2915,7 +2915,7 @@ function create_if_block_1$2(ctx) {
 		block,
 		id: create_if_block_1$2.name,
 		type: "if",
-		source: "(107:0) {#if category == \\\"history\\\"}",
+		source: "(109:0) {#if category == \\\"history\\\"}",
 		ctx
 	});
 
@@ -2948,13 +2948,13 @@ function create_fragment$5(ctx) {
 			attr_dev(img, "alt", "un triangle aux trois côtés égaux");
 			attr_dev(img, "height", "20px");
 			attr_dev(img, "width", "20px");
-			add_location(img, file$4, 90, 52, 1914);
+			add_location(img, file$4, 92, 52, 1949);
 			attr_dev(button, "class", "bg-very-dark open svelte-1gzqnnc");
-			add_location(button, file$4, 90, 0, 1862);
+			add_location(button, file$4, 92, 0, 1897);
 			attr_dev(div0, "class", " article d-flex flex-column svelte-1gzqnnc");
-			add_location(div0, file$4, 98, 0, 2063);
+			add_location(div0, file$4, 100, 0, 2098);
 			attr_dev(div1, "class", "rounded-left p-0 rounded-lg bg-very-dark main h-100 min-vh-100 text-light w-90 d-flex flex-row svelte-1gzqnnc");
-			add_location(div1, file$4, 88, 0, 1749);
+			add_location(div1, file$4, 90, 0, 1784);
 		},
 		l: function claim(nodes) {
 			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3039,6 +3039,8 @@ function instance$5($$self, $$props, $$invalidate) {
 	let h, r;
 
 	function change() {
+		$$invalidate(3, category = "history");
+
 		if (isOpen) {
 			$$invalidate(0, main.style.width = "0px", main);
 			$$invalidate(2, isOpen = false);
@@ -3452,7 +3454,7 @@ function create_fragment$6(ctx) {
 	return block;
 }
 
-const func$1 = () => import('./AnimatedBG-2d65f69e.js');
+const func$1 = () => import('./AnimatedBG-2ae0e3e9.js');
 
 function instance$6($$self, $$props, $$invalidate) {
 	const writable_props = [];
@@ -3587,4 +3589,4 @@ var app = new App({
 });
 
 export { SvelteComponentDev as S, attr_dev as a, add_location as b, insert_dev as c, dispatch_dev as d, element as e, detach_dev as f, space as g, append_dev as h, init as i, binding_callbacks as j, app as k, noop as n, onMount as o, safe_not_equal as s, text as t, validate_slots as v };
-//# sourceMappingURL=main-a4772547.js.map
+//# sourceMappingURL=main-eb171596.js.map
