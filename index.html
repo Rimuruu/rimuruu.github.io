@@ -1,25 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
-
-	<title>Antoine Renciot</title>
-
-	<link rel='icon' type='image/png' href='/favicon.ico'>
-	<link rel='stylesheet' href='/global.css'>
-	<link rel='stylesheet' href='/build/bundle.css'>
-
-
-	<script type='module' src='build/bundle.js'></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script nomodule>
-		alert('The browser DOES NOT support ES modules');
-	</script>
-</head>
-
-<body>
-</body>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Antoine Renciot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="img/logo.jpg" width="100px" height="100px" alt="logo" />
+        <div class="nav">
+          <a class="link" href="#"><span>Home</span></a>
+          <a class="link" href="about_me.html"><span>About me</span></a>
+          <a class="link" href="mailto:antoine.renciot@gmail.com"
+            ><span>Contact</span></a
+          >
+        </div>
+      </div>
+      <div class="content">
+        <h2>Réalisations</h2>
+        <div class="item">
+          <a href="https://github.com/Rimuruu/language-identification"
+            >language-identification</a
+          >
+          <i
+            >Projet d'apprentissage statique, reconnaissance d'un texte parmis
+            11 langues (SVM et N-gramme)</i
+          >
+        </div>
+        <div class="item">
+          <a href="https://github.com/Rimuruu/photo-editor">photo-editor</a>
+          <i
+            >Projet d'interactions homme-machine, éditeur photo avec JavaFX,
+            étude sur les heuristiques de Nielsen
+          </i>
+        </div>
+        <div class="item">
+          <a href="https://github.com/Rimuruu/rogue-like">rogue-like</a>
+          <a href="rogue_like.html">[PLAY]</a>
+          <i
+            >Projet de programmation fonctionnelle, entity component system,
+            compilation ocaml vers js
+          </i>
+        </div>
+        <div class="item">
+          <a href="https://github.com/Rimuruu/projet-ballotin"
+            >projet-ballotin</a
+          >
+          <i>Projet web, site de vote en php</i>
+        </div>
+        <div class="item">
+          <a href="https://github.com/Rimuruu/minesweeper">minesweeper</a>
+          <i>Démineur en C++ avec SDL</i>
+        </div>
+        <div class="item">
+          <a href="https://github.com/Rimuruu/jeu-de-go">jeu-de-go</a>
+          <i>Jeu de go en Java</i>
+        </div>
+        <div class="item">
+          <a>tetris</a>
+          <a href="tetris.html">[PLAY]</a>
+          <i>Tetris en js</i>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

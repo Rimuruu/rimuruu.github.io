@@ -1,0 +1,6 @@
+(** @canonical Ecs.Component *)
+module Component = Ecs__Component
+
+
+(** @canonical Ecs.Entity *)
+module Entity = Ecs__Entity

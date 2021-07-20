@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+
+  font-family: Consolas, monospace;
+}
+
+body {
+  background-image: url(./img/bg.jpg);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 60%;
+
+  margin: auto;
+  margin-top: 5%;
+  padding: 15px;
+}
+
+.nav {
+  flex-grow: 2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog {
+  display: flex;
+  margin: 5px 15px;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  margin: 5px 15px;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  margin: 5px 15px;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 15px;
+}
+
+.header {
+  display: flex;
+}

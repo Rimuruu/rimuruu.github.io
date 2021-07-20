@@ -1,0 +1,138 @@
+(** @canonical Game.Background *)
+module Background = Game__Background
+
+
+(** @canonical Game.Cleaning_system *)
+module Cleaning_system = Game__Cleaning_system
+
+
+(** @canonical Game.Collision_system *)
+module Collision_system = Game__Collision_system
+
+
+(** @canonical Game.Component_defs *)
+module Component_defs = Game__Component_defs
+
+
+(** @canonical Game.Consumable *)
+module Consumable = Game__Consumable
+
+
+(** @canonical Game.Control_system *)
+module Control_system = Game__Control_system
+
+
+(** @canonical Game.Count *)
+module Count = Game__Count
+
+
+(** @canonical Game.Door *)
+module Door = Game__Door
+
+
+(** @canonical Game.Draw_system *)
+module Draw_system = Game__Draw_system
+
+
+(** @canonical Game.Enemy *)
+module Enemy = Game__Enemy
+
+
+(** @canonical Game.Fireball *)
+module Fireball = Game__Fireball
+
+
+(** @canonical Game.Game_state *)
+module Game_state = Game__Game_state
+
+
+(** @canonical Game.Global *)
+module Global = Game__Global
+
+
+(** @canonical Game.Gobelin *)
+module Gobelin = Game__Gobelin
+
+
+(** @canonical Game.Heart *)
+module Heart = Game__Heart
+
+
+(** @canonical Game.Info *)
+module Info = Game__Info
+
+
+(** @canonical Game.Input_handler *)
+module Input_handler = Game__Input_handler
+
+
+(** @canonical Game.Logic_system *)
+module Logic_system = Game__Logic_system
+
+
+(** @canonical Game.Map *)
+module Map = Game__Map
+
+
+(** @canonical Game.Mine *)
+module Mine = Game__Mine
+
+
+(** @canonical Game.Move_system *)
+module Move_system = Game__Move_system
+
+
+(** @canonical Game.Objet *)
+module Objet = Game__Objet
+
+
+(** @canonical Game.Player *)
+module Player = Game__Player
+
+
+(** @canonical Game.Projectile *)
+module Projectile = Game__Projectile
+
+
+(** @canonical Game.Rect *)
+module Rect = Game__Rect
+
+
+(** @canonical Game.Skeleton *)
+module Skeleton = Game__Skeleton
+
+
+(** @canonical Game.Spider *)
+module Spider = Game__Spider
+
+
+(** @canonical Game.Stats *)
+module Stats = Game__Stats
+
+
+(** @canonical Game.System *)
+module System = Game__System
+
+
+(** @canonical Game.System_defs *)
+module System_defs = Game__System_defs
+
+
+(** @canonical Game.Text *)
+module Text = Game__Text
+
+
+(** @canonical Game.Texture *)
+module Texture = Game__Texture
+
+
+(** @canonical Game.Trappeur *)
+module Trappeur = Game__Trappeur
+
+
+(** @canonical Game.Vector *)
+module Vector = Game__Vector
+
+
+(** @canonical Game.Wall *)
+module Wall = Game__Wall
